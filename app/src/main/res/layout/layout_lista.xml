@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#ddd"
+android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Produto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Produto" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Produto"
+        android:layout_alignBottom="@+id/Produto"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="-26dp"
+         />
+
+    <TextView
+        android:id="@+id/quantidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+
+        android:layout_toRightOf="@id/Produto"
+        android:text="Quantidade" />
+
+    <TextView
+        android:id="@+id/tvQuantidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quantidade"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/tvNome"
+        android:layout_toRightOf="@id/tvNome"
+         />
+
+    <TextView
+        android:id="@+id/Preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/quantidade"
+        android:text="Preço" />
+
+    <TextView
+        android:id="@+id/tvPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Preco"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_toRightOf="@id/tvQuantidade" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textSize="0dp"
+        android:id="@+id/tvCodigo"
+        android:visibility = "gone"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
